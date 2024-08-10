@@ -13,6 +13,7 @@ export function extractProperties(node: Element) {
   const extensions = Array.from(
     node.getElementsByTagNameNS(
       "http://www.garmin.com/xmlschemas/GpxExtensions/v3",
+      "http://www.groundspeak.com/cache/1/0/1/cache.xsd"
       "*"
     )
   );
